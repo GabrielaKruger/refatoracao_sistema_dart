@@ -1,4 +1,5 @@
-import '../models/todo.dart';
+import '../../domain/entities/todo.dart';
+
 
 class TodoModel extends Todo {
   const TodoModel({
