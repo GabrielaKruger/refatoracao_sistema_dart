@@ -5,9 +5,8 @@
 ```text
 lib/
  ├── core/
- │    ├── network/
- │    └── storage/
- │
+ │   ├── errors/
+ │   │     app_errors.dart
  └── features/
       └── todos/
            ├── data/
@@ -32,7 +31,7 @@ lib/
                 │     todo_viewmodel.dart
                 └── widgets/
                       add_todo_dialog.dart
-                      app_errors.dart
+                    
 ```
 
 ---
